@@ -1,0 +1,469 @@
+<keyboard3 conformsTo="45" xmlns="https://schemas.unicode.org/cldr/45/keyboard3">
+  <import path="WindowsKeyboard.xml" />
+  <import path="WindowsTouchKeyboard.xml" />
+  <info name="KeySet.en-US_us" />
+  <displays>
+    <display id="q" SecondaryLabel="1" />
+    <display id="w" SecondaryLabel="2" />
+    <display id="e" SecondaryLabel="3" />
+    <display id="r" SecondaryLabel="4" />
+    <display id="t" SecondaryLabel="5" />
+    <display id="y" SecondaryLabel="6" />
+    <display id="u" SecondaryLabel="7" />
+    <display id="i" SecondaryLabel="8" />
+    <display id="o" SecondaryLabel="9" />
+    <display id="p" SecondaryLabel="0" />
+    <display id="A." SecondaryLabel="?" />
+    <display id="AU." SecondaryLabel="?" />
+  </displays>
+  <keys>
+    <key id="q" longPressKeyIds="q.1" output="q" vk="VK_Q" />
+    <key id="q.1" output="1" />
+    <key id="shift-q" longPressKeyIds="shift-q.1" output="Q" />
+    <key id="shift-q.1" output="1" />
+    <key id="w" longPressKeyIds="w.1 w.2 w.3 w.4 w.5" output="w" vk="VK_W" />
+    <key id="w.1" output="2" />
+    <key id="w.2" output="ẃ" />
+    <key id="w.3" output="ẅ" />
+    <key id="w.4" output="ẁ" />
+    <key id="w.5" output="ŵ" />
+    <key id="shift-w" longPressKeyIds="shift-w.1 shift-w.2 shift-w.3 shift-w.4 shift-w.5" output="W" />
+    <key id="shift-w.1" output="2" />
+    <key id="shift-w.2" output="Ẃ" />
+    <key id="shift-w.3" output="Ẅ" />
+    <key id="shift-w.4" output="Ẁ" />
+    <key id="shift-w.5" output="Ŵ" />
+    <key id="e" longPressKeyIds="e.1 e.2 e.3 e.4 e.5 e.6" output="e" vk="VK_E" />
+    <key id="e.1" output="3" />
+    <key id="e.2" output="é" />
+    <key id="e.3" output="ë" />
+    <key id="e.4" output="è" />
+    <key id="e.5" output="ê" />
+    <key id="e.6" output="ē" />
+    <key id="shift-e" longPressKeyIds="shift-e.1 shift-e.2 shift-e.3 shift-e.4 shift-e.5 shift-e.6" output="E" />
+    <key id="shift-e.1" output="3" />
+    <key id="shift-e.2" output="É" />
+    <key id="shift-e.3" output="Ë" />
+    <key id="shift-e.4" output="È" />
+    <key id="shift-e.5" output="Ê" />
+    <key id="shift-e.6" output="Ē" />
+    <key id="r" longPressKeyIds="r.1" output="r" vk="VK_R" />
+    <key id="r.1" output="4" />
+    <key id="shift-r" longPressKeyIds="shift-r.1" output="R" />
+    <key id="shift-r.1" output="4" />
+    <key id="t" longPressKeyIds="t.1 t.2 t.3 t.4" output="t" vk="VK_T" />
+    <key id="t.1" output="5" />
+    <key id="t.2" output="þ" />
+    <key id="t.3" output="ť" />
+    <key id="t.4" output="ţ" />
+    <key id="shift-t" longPressKeyIds="shift-t.1 shift-t.2 shift-t.3 shift-t.4" output="T" />
+    <key id="shift-t.1" output="5" />
+    <key id="shift-t.2" output="Þ" />
+    <key id="shift-t.3" output="Ť" />
+    <key id="shift-t.4" output="Ţ" />
+    <key id="y" longPressKeyIds="y.1 y.2 y.3 y.4 y.5" output="y" vk="VK_Y" />
+    <key id="y.1" output="6" />
+    <key id="y.2" output="ý" />
+    <key id="y.3" output="ÿ" />
+    <key id="y.4" output="ỳ" />
+    <key id="y.5" output="ŷ" />
+    <key id="shift-y" longPressKeyIds="shift-y.1 shift-y.2 shift-y.3 shift-y.4 shift-y.5" output="Y" />
+    <key id="shift-y.1" output="6" />
+    <key id="shift-y.2" output="Ý" />
+    <key id="shift-y.3" output="Ÿ" />
+    <key id="shift-y.4" output="Ỳ" />
+    <key id="shift-y.5" output="Ŷ" />
+    <key id="u" longPressKeyIds="u.1 u.2 u.3 u.4 u.5 u.6" output="u" vk="VK_U" />
+    <key id="u.1" output="7" />
+    <key id="u.2" output="ú" />
+    <key id="u.3" output="ü" />
+    <key id="u.4" output="ù" />
+    <key id="u.5" output="û" />
+    <key id="u.6" output="ū" />
+    <key id="shift-u" longPressKeyIds="shift-u.1 shift-u.2 shift-u.3 shift-u.4 shift-u.5 shift-u.6" output="U" />
+    <key id="shift-u.1" output="7" />
+    <key id="shift-u.2" output="Ú" />
+    <key id="shift-u.3" output="Ü" />
+    <key id="shift-u.4" output="Ù" />
+    <key id="shift-u.5" output="Û" />
+    <key id="shift-u.6" output="Ū" />
+    <key id="i" longPressKeyIds="i.1 i.2 i.3 i.4 i.5 i.6" output="i" vk="VK_I" />
+    <key id="i.1" output="8" />
+    <key id="i.2" output="í" />
+    <key id="i.3" output="ï" />
+    <key id="i.4" output="ì" />
+    <key id="i.5" output="î" />
+    <key id="i.6" output="ī" />
+    <key id="shift-i" longPressKeyIds="shift-i.1 shift-i.2 shift-i.3 shift-i.4 shift-i.5 shift-i.6" output="I" />
+    <key id="shift-i.1" output="8" />
+    <key id="shift-i.2" output="Í" />
+    <key id="shift-i.3" output="Ï" />
+    <key id="shift-i.4" output="Ì" />
+    <key id="shift-i.5" output="Î" />
+    <key id="shift-i.6" output="Ī" />
+    <key id="o" longPressKeyIds="o.1 o.2 o.3 o.4 o.5 o.6 o.7 o.8 o.9" output="o" vk="VK_O" />
+    <key id="o.1" output="9" />
+    <key id="o.2" output="ó" />
+    <key id="o.3" output="ö" />
+    <key id="o.4" output="ò" />
+    <key id="o.5" output="ô" />
+    <key id="o.6" output="ō" />
+    <key id="o.7" output="õ" />
+    <key id="o.8" output="œ" />
+    <key id="o.9" output="ø" />
+    <key id="shift-o" longPressKeyIds="shift-o.1 shift-o.2 shift-o.3 shift-o.4 shift-o.5 shift-o.6 shift-o.7 shift-o.8 shift-o.9" output="O" />
+    <key id="shift-o.1" output="9" />
+    <key id="shift-o.2" output="Ó" />
+    <key id="shift-o.3" output="Ö" />
+    <key id="shift-o.4" output="Ò" />
+    <key id="shift-o.5" output="Ô" />
+    <key id="shift-o.6" output="Ō" />
+    <key id="shift-o.7" output="Õ" />
+    <key id="shift-o.8" output="Œ" />
+    <key id="shift-o.9" output="Ø" />
+    <key id="p" longPressKeyIds="p.1" output="p" vk="VK_P" />
+    <key id="p.1" output="0" />
+    <key id="shift-p" longPressKeyIds="shift-p.1" output="P" />
+    <key id="shift-p.1" output="0" />
+    <key id="a" longPressKeyIds="a.1 a.2 a.3 a.4 a.5 a.6 a.7 a.8" output="a" vk="VK_A" />
+    <key id="a.1" output="á" />
+    <key id="a.2" output="ä" />
+    <key id="a.3" output="à" />
+    <key id="a.4" output="â" />
+    <key id="a.5" output="ā" />
+    <key id="a.6" output="ã" />
+    <key id="a.7" output="æ" />
+    <key id="a.8" output="å" />
+    <key id="shift-a" longPressKeyIds="shift-a.1 shift-a.2 shift-a.3 shift-a.4 shift-a.5 shift-a.6 shift-a.7 shift-a.8" output="A" />
+    <key id="shift-a.1" output="Á" />
+    <key id="shift-a.2" output="Ä" />
+    <key id="shift-a.3" output="À" />
+    <key id="shift-a.4" output="Â" />
+    <key id="shift-a.5" output="Ā" />
+    <key id="shift-a.6" output="Ã" />
+    <key id="shift-a.7" output="Æ" />
+    <key id="shift-a.8" output="Å" />
+    <key id="s" longPressKeyIds="s.1 s.2 s.3" output="s" vk="VK_S" />
+    <key id="s.1" output="š" />
+    <key id="s.2" output="ß" />
+    <key id="s.3" output="§" />
+    <key id="shift-s" longPressKeyIds="shift-s.1 shift-s.2 shift-s.3" output="S" />
+    <key id="shift-s.1" output="Š" />
+    <key id="shift-s.2" output="ẞ" />
+    <key id="shift-s.3" output="§" />
+    <key id="d" longPressKeyIds="d.1" output="d" vk="VK_D" />
+    <key id="d.1" output="ð" />
+    <key id="shift-d" longPressKeyIds="shift-d.1" output="D" />
+    <key id="shift-d.1" output="Ð" />
+    <key id="f" output="f" vk="VK_F" />
+    <key id="shift-f" output="F" />
+    <key id="g" longPressKeyIds="g.1" output="g" vk="VK_G" />
+    <key id="g.1" output="ĝ" />
+    <key id="shift-g" longPressKeyIds="shift-g.1" output="G" />
+    <key id="shift-g.1" output="Ĝ" />
+    <key id="h" longPressKeyIds="h.1" output="h" vk="VK_H" />
+    <key id="h.1" output="ĥ" />
+    <key id="shift-h" longPressKeyIds="shift-h.1" output="H" />
+    <key id="shift-h.1" output="Ĥ" />
+    <key id="j" longPressKeyIds="j.1" output="j" vk="VK_J" />
+    <key id="j.1" output="ĵ" />
+    <key id="shift-j" longPressKeyIds="shift-j.1" output="J" />
+    <key id="shift-j.1" output="Ĵ" />
+    <key id="k" output="k" vk="VK_K" />
+    <key id="shift-k" output="K" />
+    <key id="l" output="l" vk="VK_L" />
+    <key id="shift-l" output="L" />
+    <key id="'" longPressKeyIds="'.1 '.2 '.3 '.4 '.5 '.6" output="'" vk="VK_OEM_7" />
+    <key id="'.1" output="&quot;" />
+    <key id="'.2" output="”" />
+    <key id="'.3" output="’" />
+    <key id="'.4" output="‘" />
+    <key id="'.5" output="“" />
+    <key id="'.6" output="`" />
+    <key id="shift-'" longPressKeyIds="shift-'.1 shift-'.2 shift-'.3 shift-'.4 shift-'.5 shift-'.6" output="&quot;" />
+    <key id="shift-'.1" output="'" />
+    <key id="shift-'.2" output="”" />
+    <key id="shift-'.3" output="’" />
+    <key id="shift-'.4" output="‘" />
+    <key id="shift-'.5" output="“" />
+    <key id="shift-'.6" output="`" />
+    <key id="z" output="z" vk="VK_Z" />
+    <key id="shift-z" output="Z" />
+    <key id="x" output="x" vk="VK_X" />
+    <key id="shift-x" output="X" />
+    <key id="c" longPressKeyIds="c.1 c.2 c.3" output="c" vk="VK_C" />
+    <key id="c.1" output="ç" />
+    <key id="c.2" output="ĉ" />
+    <key id="c.3" output="©" />
+    <key id="shift-c" longPressKeyIds="shift-c.1 shift-c.2 shift-c.3" output="C" />
+    <key id="shift-c.1" output="Ç" />
+    <key id="shift-c.2" output="Ĉ" />
+    <key id="shift-c.3" output="©" />
+    <key id="v" output="v" vk="VK_V" />
+    <key id="shift-v" output="V" />
+    <key id="b" output="b" vk="VK_B" />
+    <key id="shift-b" output="B" />
+    <key id="n" longPressKeyIds="n.1" output="n" vk="VK_N" />
+    <key id="n.1" output="ñ" />
+    <key id="shift-n" longPressKeyIds="shift-n.1" output="N" />
+    <key id="shift-n.1" output="Ñ" />
+    <key id="m" longPressKeyIds="m.1" output="m" vk="VK_M" />
+    <key id="m.1" output="µ" />
+    <key id="shift-m" longPressKeyIds="shift-m.1" output="M" />
+    <key id="shift-m.1" output="µ" />
+    <key id="," longPressKeyIds=",.1" output="," vk="VK_OEM_COMMA" />
+    <key id=",.1" output=";" />
+    <key id="shift-," longPressKeyIds="shift-,.1" output=";" />
+    <key id="shift-,.1" output="," />
+    <key id="." longPressKeyIds="..1 ..2 ..3 ..4 ..5 ..6 ..7 ..8" output="." vk="VK_OEM_PERIOD" />
+    <key id="..1" output=":" />
+    <key id="..2" output="?" />
+    <key id="..3" output="!" />
+    <key id="..4" output="-" />
+    <key id="..5" output=";" />
+    <key id="..6" output="," />
+    <key id="..7" output="_" />
+    <key id="..8" output="…" />
+    <key id="shift-." longPressKeyIds="shift-..1 shift-..2 shift-..3 shift-..4 shift-..5 shift-..6 shift-..7 shift-..8" output=":" />
+    <key id="shift-..1" output="." />
+    <key id="shift-..2" output="?" />
+    <key id="shift-..3" output="!" />
+    <key id="shift-..4" output="-" />
+    <key id="shift-..5" output=";" />
+    <key id="shift-..6" output="," />
+    <key id="shift-..7" output="_" />
+    <key id="shift-..8" output="…" />
+    <key id="?" longPressKeyIds="?.1 ?.2 ?.3 ?.4 ?.5 ?.6 ?.7 ?.8 ?.9 ?.10" output="?" vk="VK_CUSTOMTEXT" />
+    <key id="?.1" output="!" />
+    <key id="?.2" output=")" />
+    <key id="?.3" output="/" />
+    <key id="?.4" output="#" />
+    <key id="?.5" output="(" />
+    <key id="?.6" output="-" />
+    <key id="?.7" output="@" />
+    <key id="?.8" output="_" />
+    <key id="?.9" output="¿" />
+    <key id="?.10" output="‽" />
+    <key id="shift-?" longPressKeyIds="shift-?.1 shift-?.2 shift-?.3 shift-?.4 shift-?.5 shift-?.6 shift-?.7 shift-?.8 shift-?.9 shift-?.10" output="!" />
+    <key id="shift-?.1" output="?" />
+    <key id="shift-?.2" output=")" />
+    <key id="shift-?.3" output="/" />
+    <key id="shift-?.4" output="#" />
+    <key id="shift-?.5" output="(" />
+    <key id="shift-?.6" output="-" />
+    <key id="shift-?.7" output="@" />
+    <key id="shift-?.8" output="_" />
+    <key id="shift-?.9" output="¡" />
+    <key id="shift-?.10" output="‽" />
+    <key id="USERDECIMAL" />
+    <key id="₹" output="₹" />
+    <key id="•" longPressKeyIds="•.1 •.2 •.3" output="•" vk="VK_CUSTOMTEXT" />
+    <key id="•.1" output="·" />
+    <key id="•.2" output="¶" />
+    <key id="•.3" output="°" />
+    <key id="©" longPressKeyIds="©.1 ©.2 ©.3" output="©" />
+    <key id="©.1" output="®" />
+    <key id="©.2" output="™" />
+    <key id="©.3" output="℗" />
+    <key id="µ" longPressKeyIds="µ.1 µ.2 µ.3 µ.4 µ.5 µ.6 µ.7 µ.8" output="µ" />
+    <key id="µ.1" output="π" />
+    <key id="µ.2" output="α" />
+    <key id="µ.3" output="β" />
+    <key id="µ.4" output="Ω" />
+    <key id="µ.5" output="θ" />
+    <key id="µ.6" output="λ" />
+    <key id="µ.7" output="∂" />
+    <key id="µ.8" output="∞" />
+    <key id="½" longPressKeyIds="½.1 ½.2 ½.3 ½.4 ½.5 ½.6 ½.7 ½.8" output="½" />
+    <key id="½.1" output="¼" />
+    <key id="½.2" output="¾" />
+    <key id="½.3" output="⅓" />
+    <key id="½.4" output="⅔" />
+    <key id="½.5" output="⅛" />
+    <key id="½.6" output="⅜" />
+    <key id="½.7" output="⅝" />
+    <key id="½.8" output="⅞" />
+    <key id="¦" output="¦" />
+    <key id="¶" longPressKeyIds="¶.1 ¶.2" output="¶" />
+    <key id="¶.1" output="§" />
+    <key id="¶.2" output="♪" />
+    <key id="A," output="," vk="VK_OEM_COMMA" />
+    <key id="shift-A," output="," />
+    <key id="A." longPressKeyIds="A..1 A..2 A..3 A..4 A..5 A..6 A..7" output="." vk="VK_OEM_PERIOD" />
+    <key id="A..1" output="?" />
+    <key id="A..2" output="!" />
+    <key id="A..3" output="-" />
+    <key id="A..4" output=";" />
+    <key id="A..5" output="," />
+    <key id="A..6" output="_" />
+    <key id="A..7" output="…" />
+    <key id="shift-A." longPressKeyIds="shift-A..1 shift-A..2 shift-A..3 shift-A..4 shift-A..5 shift-A..6 shift-A..7" output="." />
+    <key id="shift-A..1" output="?" />
+    <key id="shift-A..2" output="!" />
+    <key id="shift-A..3" output="-" />
+    <key id="shift-A..4" output=";" />
+    <key id="shift-A..5" output="," />
+    <key id="shift-A..6" output="_" />
+    <key id="shift-A..7" output="…" />
+    <key id="AU." longPressKeyIds="AU..1 AU..2 AU..3 AU..4 AU..5 AU..6 AU..7 AU..8" output="." vk="VK_OEM_PERIOD" />
+    <key id="AU..1" output="?" />
+    <key id="AU..2" output=":" />
+    <key id="AU..3" output="," />
+    <key id="AU..4" output="/" />
+    <key id="AU..5" output="&quot;" />
+    <key id="AU..6" output="&amp;" />
+    <key id="AU..7" output="+" />
+    <key id="AU..8" output="-" />
+    <key id="shift-AU." longPressKeyIds="shift-AU..1 shift-AU..2 shift-AU..3 shift-AU..4 shift-AU..5 shift-AU..6 shift-AU..7 shift-AU..8" output="." />
+    <key id="shift-AU..1" output="?" />
+    <key id="shift-AU..2" output=":" />
+    <key id="shift-AU..3" output="," />
+    <key id="shift-AU..4" output="/" />
+    <key id="shift-AU..5" output="&quot;" />
+    <key id="shift-AU..6" output="&amp;" />
+    <key id="shift-AU..7" output="+" />
+    <key id="shift-AU..8" output="-" />
+  </keys>
+  <layers formId="touch">
+    <layer id="WideAlpha:0" modifiers="none">
+      <row id="W0" keys="q w e r t y u i o p" />
+      <row id="W1" keys="a s d f g h j k l '" />
+      <row id="W2" keys="z x c v b n m , . ?" />
+      <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
+    </layer>
+    <layer id="WideAlpha:0:shift" modifiers="shift">
+      <row id="W0" keys="shift-q shift-w shift-e shift-r shift-t shift-y shift-u shift-i shift-o shift-p" />
+      <row id="W1" keys="shift-a shift-s shift-d shift-f shift-g shift-h shift-j shift-k shift-l shift-'" />
+      <row id="W2" keys="shift-z shift-x shift-c shift-v shift-b shift-n shift-m shift-, shift-. shift-?" />
+      <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
+    </layer>
+    <layer id="WideAlpha:0:caps" modifiers="caps">
+      <row id="W0" keys="shift-q shift-w shift-e shift-r shift-t shift-y shift-u shift-i shift-o shift-p" />
+      <row id="W1" keys="shift-a shift-s shift-d shift-f shift-g shift-h shift-j shift-k shift-l '" />
+      <row id="W2" keys="shift-z shift-x shift-c shift-v shift-b shift-n shift-m , . ?" />
+      <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
+    </layer>
+    <layer id="WideAlpha:0:cs" modifiers="shift caps">
+      <row id="W0" keys="q w e r t y u i o p" />
+      <row id="W1" keys="a s d f g h j k l shift-'" />
+      <row id="W2" keys="z x c v b n m shift-, shift-. shift-?" />
+      <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
+    </layer>
+    <layer id="SplitAlpha:0" modifiers="none, caps, shift, shift caps">
+      <row id="S0L" keys="q w e r t" />
+      <row id="S1L" keys="a s d f g" />
+      <row id="S2L" keys="z x c v b" />
+      <row id="S0R" keys="y u i o p" />
+      <row id="S1R" keys="h j k l '" />
+      <row id="S2R" keys="n m , . ?" />
+    </layer>
+    <layer id="WideSymbols:0" modifiers="none, caps, shift, shift caps">
+      <row id="WS0" keys="! @ # $ % &amp;" />
+      <row id="WS1" keys="( ) - _ = +" />
+      <row id="WS2" keys="\ ; : &quot; * /" />
+      <row id="WS0N" keys="1 2 3" />
+      <row id="WS1N" keys="4 5 6" />
+      <row id="WS2N" keys="7 8 9" />
+      <row id="WS3N" keys="USERDECIMAL" />
+      <row id="WS3N0" keys="0" />
+    </layer>
+    <layer id="WideSymbols:1" modifiers="none, caps, shift, shift caps">
+      <row id="WS0" keys="• © € £ µ ½" />
+      <row id="WS1" keys="&lt; &gt; [ ] { }" />
+      <row id="WS2" keys="| ¦ ¶ ° ~ ^" />
+      <row id="WS0N" keys="1 2 3" />
+      <row id="WS1N" keys="4 5 6" />
+      <row id="WS2N" keys="7 8 9" />
+      <row id="WS3N" keys="USERDECIMAL" />
+      <row id="WS3N0" keys="0" />
+    </layer>
+    <layer id="Wide50onAlphaLatin:0" modifiers="none, caps, shift, shift caps">
+      <row id="W50AL0" keys="1 2 3 4 5 6 7 8 9 0" />
+      <row id="W50AL1" keys="a b c d e f g h i j" />
+      <row id="W50AL2" keys="k l m n o p q r s t" />
+      <row id="W50AL30" keys="u v w x y z" />
+      <row id="W50AL31" keys=", . ! ?" />
+      <row id="W50AL4" keys="( ) ' &quot; ; : / _ - @" />
+    </layer>
+    <layer id="SplitSymbols:0" modifiers="none, caps, shift, shift caps">
+      <row id="SS0L" keys="! @ # $ % &amp;" />
+      <row id="SS1L" keys="( ) - _ = +" />
+      <row id="SS2L" keys="\ ; : &quot; * /" />
+      <row id="SS0R" />
+      <row id="SS1R" />
+      <row id="SS2R" />
+      <row id="SS0N" keys="1 2 3" />
+      <row id="SS1N" keys="4 5 6" />
+      <row id="SS2N" keys="7 8 9" />
+      <row id="SS3N" keys="USERDECIMAL" />
+      <row id="SS3N0" keys="0" />
+    </layer>
+    <layer id="SplitSymbols:1" modifiers="none, caps, shift, shift caps">
+      <row id="SS0L" keys="• © € £ µ ½" />
+      <row id="SS1L" keys="&lt; &gt; [ ] { }" />
+      <row id="SS2L" keys="| ¦ ¶ ° ~ ^" />
+      <row id="SS0R" />
+      <row id="SS1R" />
+      <row id="SS2R" />
+      <row id="SS0N" keys="1 2 3" />
+      <row id="SS1N" keys="4 5 6" />
+      <row id="SS2N" keys="7 8 9" />
+      <row id="SS3N" keys="USERDECIMAL" />
+      <row id="SS3N0" keys="0" />
+    </layer>
+    <layer id="ControllerSymbols:0" modifiers="none, caps, shift, shift caps">
+      <row id="CS0" keys="! @ # $ % &amp; ( ) - _" />
+      <row id="CS1" keys="= + \ ; : &quot; * / • ©" />
+      <row id="CS2" keys="€ £ µ ½ &lt; &gt; [ ] { }" />
+      <row id="CS3" keys="| ¦ ¶ ° ~ ^ ' , . ?" />
+    </layer>
+    <layer id="NarrowAlpha:0" modifiers="none, shift caps">
+      <row id="N0" keys="q w e r t y u i o p" />
+      <row id="N1" keys="a s d f g h j k l" />
+      <row id="N2" keys="z x c v b n m" />
+      <row id="N3L" keys="A," />
+      <row id="N3R" keys="A." />
+      <row id="N3EL" />
+      <row id="N3ER" keys="A." />
+      <row id="N3UL" />
+      <row id="N3UR" keys="AU." />
+      <row id="N3FL" keys="A," />
+      <row id="N3FR" keys="AU." />
+      <row id="N3CL" keys=";" />
+      <row id="N3CR" keys="A." />
+    </layer>
+    <layer id="NarrowAlpha:0:shift" modifiers="caps, shift">
+      <row id="N0" keys="q w e r t y u i o p" />
+      <row id="N1" keys="a s d f g h j k l" />
+      <row id="N2" keys="z x c v b n m" />
+      <row id="N3L" keys="shift-A," />
+      <row id="N3R" keys="shift-A." />
+      <row id="N3EL" />
+      <row id="N3ER" keys="A." />
+      <row id="N3UL" />
+      <row id="N3UR" keys="shift-AU." />
+      <row id="N3FL" keys="A," />
+      <row id="N3FR" keys="AU." />
+      <row id="N3CL" keys=";" />
+      <row id="N3CR" keys="A." />
+    </layer>
+    <layer id="NarrowSymbols:0" modifiers="none, caps, shift, shift caps">
+      <row id="NS0" keys="1 2 3 4 5 6 7 8 9 0" />
+      <row id="NS1" keys="@ # $ % &amp; * ( ) - \" />
+      <row id="NS2" keys="! ; : ' &quot; ? /" />
+      <row id="NS3L" keys="," />
+      <row id="NS3R" keys="." />
+      <row id="NS3ER" keys="." />
+      <row id="NS3UR" keys="AU." />
+    </layer>
+    <layer id="NarrowSymbols:1" modifiers="none, caps, shift, shift caps">
+      <row id="NS0" keys="1 2 3 4 5 6 7 8 9 0" />
+      <row id="NS1" keys="^ [ ] { } &lt; &gt; € £ ¥" />
+      <row id="NS2" keys="• - + = _ ~ |" />
+      <row id="NS3L" keys="," />
+      <row id="NS3R" keys="." />
+      <row id="NS3ER" keys="." />
+      <row id="NS3UR" keys="AU." />
+    </layer>
+  </layers>
+</keyboard3>
