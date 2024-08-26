@@ -15,6 +15,10 @@
     <display id="p" SecondaryLabel="0" />
     <display id="A." SecondaryLabel="?" />
     <display id="AU." SecondaryLabel="?" />
+    <display output="\u{0300}" display="◌̀" />
+    <display output="\u{0301}" display="◌́" />
+    <display output="\u{0302}" display="◌̂" />
+    <display output="\u{030C}" display="◌̌" />
   </displays>
   <keys>
     <key id="q" longPressKeyIds="q.1" output="q" vk="VK_Q" />
@@ -143,14 +147,16 @@
     <key id="shift-a.6" output="Ã" />
     <key id="shift-a.7" output="Æ" />
     <key id="shift-a.8" output="Å" />
-    <key id="s" longPressKeyIds="s.1 s.2 s.3" output="s" vk="VK_S" />
+    <key id="s" longPressKeyIds="s.1 s.2 s.3 s.4" output="s" vk="VK_S" />
     <key id="s.1" output="š" />
     <key id="s.2" output="ß" />
     <key id="s.3" output="§" />
-    <key id="shift-s" longPressKeyIds="shift-s.1 shift-s.2 shift-s.3" output="S" />
+    <key id="s.4" output="ṣ" />
+    <key id="shift-s" longPressKeyIds="shift-s.1 shift-s.2 shift-s.3 shift=s.4" output="S" />
     <key id="shift-s.1" output="Š" />
     <key id="shift-s.2" output="ẞ" />
     <key id="shift-s.3" output="§" />
+    <key id="shift-s.4" output="Ṣ" />
     <key id="d" longPressKeyIds="d.1" output="d" vk="VK_D" />
     <key id="d.1" output="ð" />
     <key id="shift-d" longPressKeyIds="shift-d.1" output="D" />
@@ -323,30 +329,38 @@
     <key id="shift-AU..6" output="&amp;" />
     <key id="shift-AU..7" output="+" />
     <key id="shift-AU..8" output="-" />
+    <key id="low" output="\u{0300}"/>
+    <key id="high" output="\u{0301}"/>
+    <key id="falling" output="\u{0302}"/>
+    <key id="rising" output="\u{030C}"/>
+    <key id="o-dot" output="ọ"/>
+    <key id="n-line" output="n̄"/>
+    <key id="shift-o-dot" output="Ọ"/>
+    <key id="shift-n-line" output="N̄"/>
   </keys>
   <layers formId="touch">
     <layer id="WideAlpha:0" modifiers="none">
-      <row id="W0" keys="q w e r t y u i o p" />
-      <row id="W1" keys="a s d f g h j k l '" />
-      <row id="W2" keys="z x c v b n m , . ?" />
+      <row id="W0" keys="q w e r t y u i o p o-dot" />
+      <row id="W1" keys="low a s d f g h j k l n-line '" />
+      <row id="W2" keys="falling z x c v b n m , . ?" />
       <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
     </layer>
     <layer id="WideAlpha:0:shift" modifiers="shift">
-      <row id="W0" keys="shift-q shift-w shift-e shift-r shift-t shift-y shift-u shift-i shift-o shift-p" />
-      <row id="W1" keys="shift-a shift-s shift-d shift-f shift-g shift-h shift-j shift-k shift-l shift-'" />
-      <row id="W2" keys="shift-z shift-x shift-c shift-v shift-b shift-n shift-m shift-, shift-. shift-?" />
+      <row id="W0" keys="shift-q shift-w shift-e shift-r shift-t shift-y shift-u shift-i shift-o shift-p shift-o-dot" />
+      <row id="W1" keys="high shift-a shift-s shift-d shift-f shift-g shift-h shift-j shift-k shift-l shift-n-line shift-'" />
+      <row id="W2" keys="rising shift-z shift-x shift-c shift-v shift-b shift-n shift-m shift-, shift-. shift-?" />
       <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
     </layer>
     <layer id="WideAlpha:0:caps" modifiers="caps">
-      <row id="W0" keys="shift-q shift-w shift-e shift-r shift-t shift-y shift-u shift-i shift-o shift-p" />
-      <row id="W1" keys="shift-a shift-s shift-d shift-f shift-g shift-h shift-j shift-k shift-l '" />
-      <row id="W2" keys="shift-z shift-x shift-c shift-v shift-b shift-n shift-m , . ?" />
+      <row id="W0" keys="shift-q shift-w shift-e shift-r shift-t shift-y shift-u shift-i shift-o shift-p shift-o-dot" />
+      <row id="W1" keys="low shift-a shift-s shift-d shift-f shift-g shift-h shift-j shift-k shift-l shift-n-line '" />
+      <row id="W2" keys="falling shift-z shift-x shift-c shift-v shift-b shift-n shift-m , . ?" />
       <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
     </layer>
     <layer id="WideAlpha:0:cs" modifiers="shift caps">
-      <row id="W0" keys="q w e r t y u i o p" />
-      <row id="W1" keys="a s d f g h j k l shift-'" />
-      <row id="W2" keys="z x c v b n m shift-, shift-. shift-?" />
+      <row id="W0" keys="q w e r t y u i o p o-dot" />
+      <row id="W1" keys="high a s d f g h j k l n-line shift-'" />
+      <row id="W2" keys="rising z x c v b n m shift-, shift-. shift-?" />
       <row id="W0NUM" keys="1 2 3 4 5 6 7 8 9 0" />
     </layer>
     <layer id="SplitAlpha:0" modifiers="none, caps, shift, shift caps">
@@ -418,9 +432,9 @@
       <row id="CS3" keys="| ¦ ¶ ° ~ ^ ' , . ?" />
     </layer>
     <layer id="NarrowAlpha:0" modifiers="none, shift caps">
-      <row id="N0" keys="q w e r t y u i o p" />
-      <row id="N1" keys="a s d f g h j k l" />
-      <row id="N2" keys="z x c v b n m" />
+      <row id="N0" keys="q w e r t y u i o p o-dot" />
+      <row id="N1" keys="low a s d f g h j k l n-line" />
+      <row id="N2" keys="falling z x c v b n m" />
       <row id="N3L" keys="A," />
       <row id="N3R" keys="A." />
       <row id="N3EL" />
@@ -433,9 +447,9 @@
       <row id="N3CR" keys="A." />
     </layer>
     <layer id="NarrowAlpha:0:shift" modifiers="caps, shift">
-      <row id="N0" keys="q w e r t y u i o p" />
-      <row id="N1" keys="a s d f g h j k l" />
-      <row id="N2" keys="z x c v b n m" />
+      <row id="N0" keys="q w e r t y u i o p o-dot" />
+      <row id="N1" keys="low a s d f g h j k l n-line" />
+      <row id="N2" keys="falling z x c v b n m" />
       <row id="N3L" keys="shift-A," />
       <row id="N3R" keys="shift-A." />
       <row id="N3EL" />
