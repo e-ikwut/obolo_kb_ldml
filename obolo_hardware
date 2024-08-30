@@ -40,7 +40,7 @@
       <row keys="space"/>
     </layer>
   </layers>
-    <layers formId="touch">
+    <layers formId="usd">
     <layer modifiers="none">
       <row keys="q w e r t y u i o p o-dot"/>
       <row keys="a s d f g h j k l n-line"/>
